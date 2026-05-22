@@ -76,10 +76,30 @@ siempre debe lanzar error sin excepción.
 
 ---
 
+---
+
 ## Reporte de cobertura
-*(se completará después de ejecutar los tests)*
+
+Name                    Stmts   Miss  Cover   Missing
+-----------------------------------------------------
+src/registro_notas.py      19      1    95%   22
+-----------------------------------------------------
+TOTAL                      19      1    95%
+
+Cobertura total: 95% - supera el minimo requerido del 85%.
 
 ---
 
-## Reflexión final
-*(se completará al final de la actividad)*
+## Reflexion final
+
+Disenar los casos de prueba en la tabla antes de escribir codigo obliga a
+pensar en el comportamiento esperado del sistema desde la perspectiva del
+usuario. Al programar directamente se tiende a escribir codigo que funciona
+pero sin considerar casos borde o invalidos. La tabla actua como una guia
+clara que evita omitir escenarios importantes.
+
+Lo mas dificil fue respetar el paso RED, es decir, no escribir nada de codigo
+antes de tener las pruebas fallando. La tentacion de implementar directamente
+fue constante, especialmente cuando la solucion parecia obvia. El ciclo
+obliga a ir despacio y con proposito, lo cual mejora la calidad del codigo
+final aunque al principio se sienta lento.
